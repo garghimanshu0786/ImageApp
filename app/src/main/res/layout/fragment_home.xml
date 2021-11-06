@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <Button
+        android:id="@+id/camerabutton"
+        style="@style/Base.TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Take_Selfie"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview"
+        app:layout_constraintRight_toLeftOf="@+id/gallerybutton"
+        android:layout_margin="@dimen/material_helper_text_font_1_3_padding_horizontal" />
+
+    <Button
+        android:id="@+id/gallerybutton"
+        style="@style/Base.TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_from_gallery"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/camerabutton"
+        app:layout_constraintTop_toBottomOf="@+id/imageview"
+        android:layout_margin="@dimen/material_helper_text_font_1_3_padding_horizontal" />
+
+    <Button
+        android:id="@+id/editbutton"
+        style="@style/Base.TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/edit_image"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camerabutton"
+        android:layout_margin="@dimen/material_helper_text_font_1_3_padding_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

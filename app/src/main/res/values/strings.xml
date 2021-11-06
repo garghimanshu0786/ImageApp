@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Image App</string>
+    <string name="Take_Selfie">Take Selfie</string>
+    <string name="open_from_gallery">Open From Gallery</string>
+    <string name="save">Save</string>
+    <string name="crop">Crop</string>
+    <string name="rotate">Rotate</string>
+    <string name="edit_image">Edit Image</string>
+</resources>
