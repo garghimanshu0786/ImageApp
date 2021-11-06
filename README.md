@@ -1,6 +1,6 @@
 
 <h1 align="center">Welcome to Image App👋</h1>
-<h2 align="center"> This app enables users to see a click pictures and edit them.</h2>
+<h2 align="center"> This app enables users to click and edit pictures.</h2>
 
 ## ✨ Screenshots
 <p align="center">
